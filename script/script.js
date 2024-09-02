@@ -1,47 +1,182 @@
 let entrevista = {
-    entrevistador: "funalo 1",
-    entrevistado: "funalo 2",
+    entrevistador: "Giovani (Lindinha)",
+    entrevistado: "Breno (Docinho)",
     questoes: [
         {
-            p:"questão1?",
-            r:""
+            p:"O que você planeja fazer ao terminar os estudos?",
+            r:"Trabalhar com algo que me dê dinheiro."
         },
         
         {
-            p:"questão2?",
-            r:""
+            p:"Como você se vê em 5 anos?",
+            r:"Morando fora, e casado com minha mulher."
         },
 
         {
-            p:"questão3?",
-            r:""
+            p:"Quais são suas metas financeiras?",
+            r:"Receber o suficente para proporcionar uma vida boa para minha familia."
         },
 
         {
-            p:"questão4?",
-            r:""
+            p:"Quais são suas metas pessoais?",
+            r:"Aprender 2 línguas, tocar piano, talvez fazer facul, tirar CNH."
         },
 
         {
-            p:"questão5?",
-            r:""
+            p:"Vocẽ acredita nossa amizade permanecerá após os estudos? Como acha que poderiamos fortalecer os laços?",
+            r:"Sim,  5 minutinhos sem perder a amizade."
         },
 
          {
-            p:"questão6?",
-            r:""
+            p:"Quem foi a(s) pesssoa(s), que teve maior influências em suas escolhas da vida?",
+            r:"Eu"
         },
 
         {
-            p:"questão7?",
-            r:""
+            p:"Quais são suas metas profissiionais?",
+            r:"Trabalhar, sempre estar aprendendo algo novo"
         },
 
        {
-            p:"questão8?",
-            r:""
+            p:"Como você planeja cuidar de sua saúde e bem estar a medida que envelhece?",
+            r:"Praticar exercícios,me hidratar, comer alimentos saudavéis "
         }
     ]
+}
+
+entrevistador: "Micahel (大きなアヒル)",
+entrevistado: "Daniel (Quep)",
+questoes: [
+    {
+        p:"questão1?",
+        r:""
+    },
+    
+    {
+        p:"questão2?",
+        r:""
+    },
+
+    {
+        p:"questão3?",
+        r:""
+    },
+
+    {
+        p:"questão4?",
+        r:""
+    },
+
+    {
+        p:"questão5?",
+        r:""
+    },
+
+     {
+        p:"questão6?",
+        r:""
+    },
+
+    {
+        p:"questão7?",
+        r:""
+    },
+
+   {
+        p:"questão8?",
+        r:""
+    }
+]
+}
+
+entrevistador: " Breno (Docinho)",
+entrevistado: "Giovani (Lindinha)",
+questoes: [
+    {
+        p:"questão1?",
+        r:""
+    },
+    
+    {
+        p:"questão2?",
+        r:""
+    },
+
+    {
+        p:"questão3?",
+        r:""
+    },
+
+    {
+        p:"questão4?",
+        r:""
+    },
+
+    {
+        p:"questão5?",
+        r:""
+    },
+
+     {
+        p:"questão6?",
+        r:""
+    },
+
+    {
+        p:"questão7?",
+        r:""
+    },
+
+   {
+        p:"questão8?",
+        r:""
+    }
+]
+}
+
+entrevistador: "Daniel (Quep)",
+entrevistado: "Michael (大きなアヒル)",
+questoes: [
+    {
+        p:"questão1?",
+        r:""
+    },
+    
+    {
+        p:"questão2?",
+        r:""
+    },
+
+    {
+        p:"questão3?",
+        r:""
+    },
+
+    {
+        p:"questão4?",
+        r:""
+    },
+
+    {
+        p:"questão5?",
+        r:""
+    },
+
+     {
+        p:"questão6?",
+        r:""
+    },
+
+    {
+        p:"questão7?",
+        r:""
+    },
+
+   {
+        p:"questão8?",
+        r:""
+    }
+]
 }
 
 function abrir_aba(num){
