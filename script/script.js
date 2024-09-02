@@ -41,8 +41,67 @@ let entrevista = {
             p:"Como você planeja cuidar de sua saúde e bem estar a medida que envelhece?",
             r:"Praticar exercícios,me hidratar, comer alimentos saudavéis "
         }
-    ]
-}
+    ]}
+
+
+
+
+
+document.getElementById("aba1").style.display= "block";
+
+function abrir_aba(num){
+    for(let i = 1   ; i <= 6; i++){
+        let id_btn = "btn"+i;
+        let id_aba = "aba"+i;
+        document.getElementById(id_btn).disabled = false;
+        document.getElementById(id_aba).style.display = "none";
+        
+    }
+        if(num == "1"){
+            document.getElementById("btn1").disabled = true;
+            document.getElementById("aba1").style.display= "block";
+    }
+
+    if(num == "2"){
+        document.getElementById("btn2").disabled = true;
+        document.getElementById("aba2").style.display= "block";
+        document.getElementById("Idex").style.display = "none";
+    }
+
+    if(num == "3"){
+        document.getElementById("btn3").disabled = true;
+        document.getElementById("aba3").style.display= "block";
+        document.getElementById("Idex").style.display = "none";
+    }
+
+    if(num == "4"){
+        document.getElementById("btn4").disabled = true;
+        document.getElementById("aba4").style.display= "block";
+        document.getElementById("Idex").style.display = "none";
+    }
+
+    if(num == "5"){
+        document.getElementById("btn5").disabled = true;
+        document.getElementById("aba5").style.display= "block";
+        document.getElementById("Idex").style.display = "none";
+    }
+
+
+    if(num == "6"){
+        document.getElementById("btn6").disabled = true;
+        document.getElementById("aba6").style.display= "block";
+        document.getElementById("Idex").style.display = "none";
+    }
+
+
+
+}       
+
+
+
+
+/*
+
 
 entrevistador: "Micahel (大きなアヒル)",
 entrevistado: "Daniel (Quep)",
@@ -86,8 +145,8 @@ questoes: [
         p:"questão8?",
         r:""
     }
-]
-}
+]}
+
 
 entrevistador: " Breno (Docinho)",
 entrevistado: "Giovani (Lindinha)",
@@ -131,8 +190,8 @@ questoes: [
         p:"questão8?",
         r:""
     }
-]
-}
+],
+
 
 entrevistador: "Daniel (Quep)",
 entrevistado: "Michael (大きなアヒル)",
@@ -177,82 +236,5 @@ questoes: [
         r:""
     }
 ]
-}
-
-function abrir_aba(num){
-    for(let i = 1   ; i <= 5; i++){
-        let id_btn = "btn"+i;
-        let id_aba = "aba"+i;
-        document.getElementById(id_btn).disabled = false;
-        document.getElementById(id_aba).style.display = "none";
-        
-    }
-
-
-
-    if(num == "1"){
-        document.getElementById("btn1").disabled = true;
-        document.getElementById("aba1").style.display= "block";
-        document.getElementById("Idex").style.display = "none";
-
-    }
-
-    if(num == "2"){
-        document.getElementById("btn2").disabled = true;
-        document.getElementById("aba2").style.display= "block";
-        document.getElementById("Idex").style.display = "none";
-    }
-
-    if(num == "3"){
-        document.getElementById("btn3").disabled = true;
-        document.getElementById("aba3").style.display= "block";
-        document.getElementById("Idex").style.display = "none";
-    }
-
-    if(num == "4"){
-        document.getElementById("btn4").disabled = true;
-        document.getElementById("aba4").style.display= "block";
-        document.getElementById("Idex").style.display = "none";
-    }
-
-    if(num == "5"){
-        document.getElementById("btn5").disabled = true;
-        document.getElementById("aba5").style.display= "block";
-        document.getElementById("Idex").style.display = "none";
-    }
-
-
-
-}       
-
-
-
-
-/*
-
-
-
-let contador=null;
-let inicio= 0;
-let fim=0;
-
-
-
-function contagem(){
-    if(inicio!=fim){
-      document.getElementById("valor").innerHTML=inicio;
-      if(inicio>fim){ inicio--;
-    }else{
-        inicio++;
-    }
-  }
-}
-
-  function contar(){
-    inicio=document.getElementById("inicio").value;
-    fim=document.getElementById("fim").value;
-    if(inicio>fim) inicio=Number(fim)-1;
-    else fim = Number(fim) + 1 ;
-    contador=setInterval(contagem,1000);
 }
 */ 

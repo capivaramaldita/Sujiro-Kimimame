@@ -1,75 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+ 
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Documento.txt</title>
+ </head>
+  <script src="./script/script.js"></script>
+  <link rel="stylesheet" href="./css/estilo.css">
+ 
+ <body>
+  <header class="barra">
+   
+    <button class="mobile" id="btn1" onclick="abrir_aba(1);">Mobile</button>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/estilo.css">
-</head>
+  <span class="tablet"> 
+    <button class="tablet" id="btn1" onclick="abrir_aba(1);">Tablet</button>
+  </span>
 
-<body>
+  <span class="desktop">   
+      <button class="desktop" id="btn1" onclick="abrir_aba(1);">Desktop</button>
+  </span>
+   
+   </header>
+  
+    <section class="conteudo">
+    
+    <div class="botoes">
+      <button class="botao" id="btn2" onclick="abrir_aba(2);">Aba 1</button>
+      <button class="botao" id="btn3" onclick="abrir_aba(3);">Aba 2</button>
+      <button class="botao" id="btn4" onclick="abrir_aba(4);">Aba 3</button>
+      <button class="botao" id="btn5" onclick="abrir_aba(5);">Aba 4</button>
+      <button class="botao" id="btn6" onclick="abrir_aba(6);">Aba 5</button>
+    </div>
 
-    <div class="pessoal">
+         
+    <div class="aba" id="aba1">
+        
+
+
+        <div class="pessoal">
        
 
-        <div class="info">
-            <h1>Breno</h1> <br>
-            <p>Breno em toda sua vida nunca fez nada que não envolvesse matar ou ser morto.</p>
-            <p>nunca namorou, nunca se casou, nunca teve um amigo para comprar um lanche para ele.</p>
-            <p>sua bicicleta foi sua única companheira, pena que morreu, simplesmente foi substituida.</p>
+            <div class="info">
+                <h1>Breno</h1> <br>
+                <p>Breno em toda sua vida nunca fez nada que não envolvesse matar ou ser morto.</p>
+                <p>nunca namorou, nunca se casou, nunca teve um amigo para comprar um lanche para ele.</p>
+                <p>sua bicicleta foi sua única companheira, pena que morreu, simplesmente foi substituida.</p>
+            </div>
+
+                <div class="foto">
+                    <img id="breno" src="./image/docinho.jpg" alt="">
+                    
+                </div>
+ 
+    
             
+            <div class="info">
+                <h1>Daniel</h1> <br>
+                <p>futuro garoto de programa</p>
+                <p>fã de jogos e facilmente confundível com traficantes</p>
+            </div>
+        
             <div class="foto">
-                <img id="breno" src="./image/docinho.jpg" alt="">
-                
+                <img id="daniel" src="image/daniel.jpeg" alt="">
+            </div>
+        
+    
+            <div class="info">
+                <h1>Giovani</h1> <br>
+                <p>A lindinha do grupo</p>
+            </div>
+            <div class="foto">
+                <img id="giovani" src="image/giolinda.jpg" alt="">
+            </div>
+    
+           
+    
+            <div class="info">
+                  <h1>Michael</h1> <br>
+                  <p>Grande pato</p>
+            </div>
+            <div class="foto">
+                <img id="michael" src="image/psicopato.png" alt="">
             </div>
 
         </div>
-    </div>
-
-
-    <div class="pessoal">
-        
-        <div class="info">
-            <h1>Daniel</h1> <br>
-            <p>futuro garoto de programa</p>
-            <p>fã de jogos e facilmente confundível com traficantes</p>
-        </div>
-    
-        <div class="foto">
-            <img id="daniel" src="image/daniel.jpeg" alt="">
-        </div>
-    
-    </div>
-
-     
-
-    <div class="pessoal">
-        
-        <div class="info">
-            <h1>Giovani</h1> <br>
-            <p>A lindinha do grupo</p>
-        </div>
-        <div class="foto">
-            <img id="giovani" src="image/giolinda.jpg" alt="">
-        </div>
 
     </div>
 
 
-    <div class="pessoal">
-       
 
-        <div class="info">
-              <h1>Michael</h1> <br>
-              <p>Grande pato</p>
-        </div>
-        <div class="foto">
-            <img id="michael" src="image/psicopato.png" alt="">
-        </div>
+    <div class="abas">
+
+      <div class="aba" id="aba2">
+        Estou na aba 1
+            </div>
+    <div class="aba" id="aba3">Estou na Aba 2
     </div>
+    <div class="aba" id="aba4">Estou na Aba 3</div>
+    <div class="aba" id="aba5">Estou na Aba 4</div>
+    <div class="aba" id="aba6">Estou na aba 5</div>
 
-</body>
+</div>
+<!--  -->
 
+   
+    </section>
+
+ </body>
 </html>
